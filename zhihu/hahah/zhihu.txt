@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html data-react-checksum="-1849385694" data-reactid="1" data-reactroot="" lang="zh">
+ <head data-reactid="2">
+  <meta charset="utf-8" data-reactid="3"/>
+  <title data-react-helmet="true" data-reactid="4">
+   vczh - 知乎
+  </title>
+  <meta content="width=device-width,initial-scale=1,maximum-scale=1" data-reactid="5" name="viewport"/>
+  <meta content="webkit" data-reactid="6" name="renderer"/>
+  <meta content="webkit" data-reactid="7" name="force-rendering"/>
+  <meta content="IE=edge,chrome=1" data-reactid="8" http-equiv="X-UA-Compatible"/>
+  <meta content="FTeR0c8arOPKh8c5DYh_9uu98_zJbaWw53J-Sch9MTg" data-reactid="9" name="google-site-verification"/>
+  <meta content="app-id=432274380,
+              app-argument=zhihu://people/excited-vczh" data-react-helmet="true" data-reactid="10" name="apple-itunes-app"/>
+  <link data-react-helmet="true" data-reactid="11" href="https://pic1.zhimg.com/80/v2-67b965aa94a92ed49b1a4205145b5cf4_r.jpg" rel="prefetch"/>
+  <link data-reactid="12" href="https://static.zhihu.com/static/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+  <link data-reactid="13" href="//static.zhihu.com" rel="dns-prefetch"/>
+  <link data-reactid="14" href="//pic1.zhihu.com" rel="dns-prefetch"/>
+  <link data-reactid="15" href="//pic2.zhihu.com" rel="dns-prefetch"/>
+  <link data-reactid="16" href="//pic3.zhihu.com" rel="dns-prefetch"/>
+  <link data-reactid="17" href="//pic4.zhihu.com" rel="dns-prefetch"/>
+  <link data-reactid="18" href="https://static.zhihu.com/heifetz/main.app.65882f5e3363af313e54.css" rel="stylesheet"/>
+ </head>
+ <body class="Entry-body" data-reactid="19">
+  <div data-reactid="20" id="root">
+   <div>
+    <div class="LoadingBar">
+    </div>
+    <div>
+     <header class="Sticky AppHeader" data-za-module="TopNavBar" role="banner">
+      <div class="AppHeader-inner">
+       <a aria-label="知乎" href="/">
+        <svg aria-hidden="true" class="Icon Icon--logo" height="30" style="fill:#0f88eb;height:30px;width:64px;" viewbox="0 0 200 91" width="64">
+         <title>
+         </title>
+         <g>
+          <path d="M53.29 80.035l7.32.002 2.41 8.24 13.128-8.24h15.477v-67.98H53.29v67.978zm7.79-60.598h22.756v53.22h-8.73l-8.718 5.473-1.587-5.46-3.72-.012v-53.22zM46.818 43.162h-16.35c.545-8.467.687-16.12.687-22.955h15.987s.615-7.05-2.68-6.97H16.807c1.09-4.1 2.46-8.332 4.1-12.708 0 0-7.523 0-10.085 6.74-1.06 2.78-4.128 13.48-9.592 24.41 1.84-.2 7.927-.37 11.512-6.94.66-1.84.785-2.08 1.605-4.54h9.02c0 3.28-.374 20.9-.526 22.95H6.51c-3.67 0-4.863 7.38-4.863 7.38H22.14C20.765 66.11 13.385 79.24 0 89.62c6.403 1.828 12.784-.29 15.937-3.094 0 0 7.182-6.53 11.12-21.64L43.92 85.18s2.473-8.402-.388-12.496c-2.37-2.788-8.768-10.33-11.496-13.064l-4.57 3.627c1.363-4.368 2.183-8.61 2.46-12.71H49.19s-.027-7.38-2.372-7.38zm128.752-.502c6.51-8.013 14.054-18.302 14.054-18.302s-5.827-4.625-8.556-1.27c-1.874 2.548-11.51 15.063-11.51 15.063l6.012 4.51zm-46.903-18.462c-2.814-2.577-8.096.667-8.096.667s12.35 17.2 12.85 17.953l6.08-4.29s-8.02-11.752-10.83-14.33zM199.99 46.5c-6.18 0-40.908.292-40.953.292v-31.56c1.503 0 3.882-.124 7.14-.376 12.773-.753 21.914-1.25 27.427-1.504 0 0 3.817-8.496-.185-10.45-.96-.37-7.24 1.43-7.24 1.43s-51.63 5.153-72.61 5.64c.5 2.756 2.38 5.336 4.93 6.11 4.16 1.087 7.09.53 15.36.277 7.76-.5 13.65-.76 17.66-.76v31.19h-41.71s.88 6.97 7.97 7.14h33.73v22.16c0 4.364-3.498 6.87-7.65 6.6-4.4.034-8.15-.36-13.027-.566.623 1.24 1.977 4.496 6.035 6.824 3.087 1.502 5.054 2.053 8.13 2.053 9.237 0 14.27-5.4 14.027-14.16V53.93h38.235c3.026 0 2.72-7.432 2.72-7.432z" fill-rule="evenodd">
+          </path>
+         </g>
+        </svg>
+       </a>
+       <nav class="AppHeader-nav" role="navigation">
+        <a class="AppHeader-navItem" href="/">
+         首页
+        </a>
+        <a class="AppHeader-navItem" href="/explore">
+         发现
+        </a>
+        <a class="AppHeader-navItem" href="/topic">
+         话题
+        </a>
+       </nav>
+       <div class="SearchBar" role="search">
+        <div class="SearchBar-toolWrapper">
+         <form class="SearchBar-tool">
+          <div>
+           <div class="Popover">
+            <div class="SearchBar-input Input-wrapper Input-wrapper--grey">
+             <input aria-activedescendant="AutoComplete-58941-17665--1" aria-autocomplete="list" aria-expanded="false" aria-haspopup="true" aria-owns="Popover-58942-39437-content" autocomplete="off" class="Input" id="Popover-58942-39437-toggle" maxlength="100" placeholder="搜索你感兴趣的内容…" role="combobox" type="text" value=""/>
+            </div>
+           </div>
+          </div>
+          <button aria-label="搜索" class="Button SearchBar-searchIcon Button--plain" type="button">
+           <svg aria-hidden="true" class="Icon Icon--search" height="16" style="height:16px;width:16px;" viewbox="0 0 16 16" width="16">
+            <title>
+            </title>
+            <g>
+             <path d="M12.054 10.864c.887-1.14 1.42-2.57 1.42-4.127C13.474 3.017 10.457 0 6.737 0S0 3.016 0 6.737c0 3.72 3.016 6.737 6.737 6.737 1.556 0 2.985-.533 4.127-1.42l3.103 3.104c.765.46 1.705-.37 1.19-1.19l-3.103-3.104zm-5.317.925c-2.786 0-5.053-2.267-5.053-5.053S3.95 1.684 6.737 1.684 11.79 3.95 11.79 6.737 9.522 11.79 6.736 11.79z">
+             </path>
+            </g>
+           </svg>
+          </button>
+          <div class="SearchBar-iconDecorator">
+          </div>
+         </form>
+        </div>
+        <button class="Button SearchBar-askButton" type="button">
+         提问
+        </button>
+       </div>
+       <div class="AppHeader-userInfo">
+        <div class="AppHeader-profile">
+         <div>
+          <button class="Button AppHeader-login Button--blue" type="button">
+           登录
+          </button>
+          <button class="Button Button--primary Button--blue" type="button">
+           加入知乎
+          </button>
+         </div>
+        </div>
+       </div>
+      </div>
+     </header>
+    </div>
+    <main class="App-main" role="main">
+     <div>
+      <div>
+       <div class="ProfileHeader" id="ProfileHeader">
+        <div class="Card">
+         <div class="ProfileHeader-userCover">
+          <div class="UserCover">
+           <div class="VagueImage UserCover-image" style="width:nullpx;height:nullpx;">
+           </div>
+          </div>
+         </div>
+         <div class="ProfileHeader-wrapper">
+          <div class="ProfileHeader-main">
+           <div class="UserAvatar ProfileHeader-avatar" style="top:-25px;">
+            <img class="Avatar Avatar--large UserAvatar-inner" src="https://pic1.zhimg.com/3a6c25ac3864540e80cdef9bc2a73900_xl.jpg" srcset="https://pic1.zhimg.com/3a6c25ac3864540e80cdef9bc2a73900_xll.jpg 2x" style="width:160px;height:160px;"/>
+           </div>
+           <div class="ProfileHeader-content">
+            <div class="ProfileHeader-contentHead">
+             <h1 class="ProfileHeader-title">
+              <span class="ProfileHeader-name">
+               vczh
+              </span>
+              <span class="RichText ProfileHeader-headline">
+               专业造轮子，拉黑抢前排。gaclib.net
+              </span>
+             </h1>
+            </div>
+            <div class="ProfileHeader-contentBody" style="height:52px;">
+             <span>
+              <div class="ProfileHeader-info">
+               <div class="ProfileHeader-infoItem">
+                <div class="ProfileHeader-iconWrapper">
+                 <svg aria-hidden="true" class="Icon Icon--company" height="16" style="height:16px;width:13px;" viewbox="0 0 20 18" width="13">
+                  <title>
+                  </title>
+                  <g>
+                   <path d="M15 3.998v-2C14.86.89 13.98 0 13 0H7C5.822 0 5.016.89 5 2v2l-3.02-.002c-1.098 0-1.97.89-1.97 2L0 16c0 1.11.882 2 1.98 2h16.033c1.1 0 1.98-.89 1.987-2V6c-.007-1.113-.884-2.002-1.982-2.002H15zM7 4V2.5s-.004-.5.5-.5h5c.5 0 .5.5.5.5V4H7z">
+                   </path>
+                  </g>
+                 </svg>
+                </div>
+                计算机软件
+                <div class="ProfileHeader-divider">
+                </div>
+                Microsoft Office
+                <div class="ProfileHeader-divider">
+                </div>
+                Developer
+               </div>
+               <div class="ProfileHeader-infoItem">
+                <div class="ProfileHeader-iconWrapper">
+                 <svg aria-hidden="true" class="Icon Icon--education" height="16" style="height:16px;width:16px;" viewbox="0 0 22 16" width="16">
+                  <title>
+                  </title>
+                  <g>
+                   <path d="M11 0L0 3.94v.588l4.153 2.73v5.166C4.158 12.758 7.028 16 11 16c3.972 0 6.808-3.116 6.85-3.576l.006-5.163 4.13-2.732.014-.586L11 0z">
+                   </path>
+                  </g>
+                 </svg>
+                </div>
+                华南理工大学（SCUT）
+                <div class="ProfileHeader-divider">
+                </div>
+                软件学院
+                <div class="ProfileHeader-divider">
+                </div>
+                <div class="ProfileHeader-iconWrapper">
+                 <svg aria-hidden="true" class="Icon Icon--male" height="16" style="height:16px;width:14px;" viewbox="0 0 14 14" width="14">
+                  <title>
+                  </title>
+                  <g>
+                   <path d="M3.025 10.64c-1.367-1.366-1.367-3.582 0-4.95 1.367-1.366 3.583-1.366 4.95 0 1.367 1.368 1.367 3.584 0 4.95-1.367 1.368-3.583 1.368-4.95 0zm10.122-9.368c-.002-.414-.34-.75-.753-.753L8.322 0c-.413-.002-.746.33-.744.744.002.413.338.75.75.752l2.128.313c-.95.953-1.832 1.828-1.832 1.828-2.14-1.482-5.104-1.27-7.013.64-2.147 2.147-2.147 5.63 0 7.777 2.15 2.148 5.63 2.148 7.78 0 1.908-1.91 2.12-4.873.636-7.016l1.842-1.82.303 2.116c.003.414.34.75.753.753.413.002.746-.332.744-.745l-.52-4.073z" fill-rule="evenodd">
+                   </path>
+                  </g>
+                 </svg>
+                </div>
+               </div>
+              </div>
+             </span>
+            </div>
+            <div class="ProfileHeader-contentFooter">
+             <button class="Button ProfileHeader-expandButton Button--plain" type="button">
+              <svg aria-hidden="true" class="Icon ProfileHeader-arrowIcon Icon--arrow" height="16" style="height:16px;width:10px;" viewbox="0 0 10 6" width="10">
+               <title>
+               </title>
+               <g>
+                <path d="M8.716.217L5.002 4 1.285.218C.99-.072.514-.072.22.218c-.294.29-.294.76 0 1.052l4.25 4.512c.292.29.77.29 1.063 0L9.78 1.27c.293-.29.293-.76 0-1.052-.295-.29-.77-.29-1.063 0z">
+                </path>
+               </g>
+              </svg>
+              查看详细资料
+             </button>
+             <div class="MemberButtonGroup ProfileButtonGroup ProfileHeader-buttons">
+              <button class="Button FollowButton Button--primary Button--blue" type="button">
+               <span>
+                <svg aria-hidden="true" class="Icon FollowButton-icon Icon--plus" height="16" style="height:16px;width:12px;" viewbox="0 0 12 12" width="12">
+                 <title>
+                 </title>
+                 <g>
+                  <path d="M6.994 4.994s-.008-3.593 0-4C6.97-.33 4.97-.33 4.996.994c-.025 1.275 0 4 0 4H1C-.334 5-.334 7 1 7c1.332 0 3.996-.006 3.996-.006v4c0 1.346 2.004 1.346 1.998 0-.006-1.347 0-4 0-4S9.658 7 10.997 7c1.338 0 1.338-2-.007-2.006H6.994z">
+                  </path>
+                 </g>
+                </svg>
+                关注
+               </span>
+              </button>
+              <button class="Button" type="button">
+               <svg aria-hidden="true" class="Icon Button-icon Icon--comments" height="16" style="height:16px;width:15px;" viewbox="0 0 20 20" width="15" xmlns="http://www.w3.org/2000/svg">
+                <title>
+                </title>
+                <g>
+                 <g>
+                  <path d="M9 0C3.394 0 0 4.13 0 8c0 1.654.522 3.763 2.014 5.566.314.292.518.82.454 1.17-.165 1.488-.842 1.905-.842 1.905-.328.332.105.67.588.582 1.112-.2 2.07-.58 3.526-1.122.4-.202.464-.147.78-.078C11.524 17.764 18 14 18 8c0-3.665-3.43-8-9-8z">
+                  </path>
+                  <path d="M19.14 9.628c.758.988.86 2.01.86 3.15 0 1.195-.62 3.11-1.368 3.938-.21.23-.354.467-.308.722.12 1.073.614 1.5.614 1.5.237.24-.188.563-.537.5-.802-.145-1.494-.42-2.545-.81-.29-.146-.336-.106-.563-.057-2.043.712-4.398.476-6.083-.926 5.964-.524 8.726-3.03 9.93-8.016z">
+                  </path>
+                 </g>
+                </g>
+               </svg>
+               <span>
+                发私信
+               </span>
+              </button>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="Profile-main">
+        <div class="Profile-mainColumn">
+         <div class="Card ProfileMain" id="ProfileMain">
+          <div class="ProfileMain-header">
+           <ul class="Tabs ProfileMain-tabs" role="tablist">
+            <li aria-controls="Profile-activities" class="Tabs-item Tabs-item--noMeta" role="tab">
+             <a class="Tabs-link" href="/people/excited-vczh/activities">
+              动态
+             </a>
+            </li>
+            <li aria-controls="Profile-answers" class="Tabs-item" role="tab">
+             <a class="Tabs-link" href="/people/excited-vczh/answers">
+              回答
+              <span class="Tabs-meta">
+               14793
+              </span>
+             </a>
+            </li>
+            <li aria-controls="Profile-posts" class="Tabs-item" role="tab">
+             <a class="Tabs-link" href="/people/excited-vczh/pins">
+              分享
+              <span class="Tabs-meta">
+               60
+              </span>
+             </a>
+            </li>
+            <li aria-controls="Profile-asks" class="Tabs-item" role="tab">
+             <a class="Tabs-link" href="/people/excited-vczh/asks">
+              提问
+              <span class="Tabs-meta">
+               474
+              </span>
+             </a>
+            </li>
+            <li aria-controls="Profile-collections" class="Tabs-item" role="tab">
+             <a class="Tabs-link" href="/people/excited-vczh/collections">
+              收藏
+              <span class="Tabs-meta">
+               1
+              </span>
+             </a>
+            </li>
+            <li aria-controls="Profile-following" class="Tabs-item Tabs-item--noMeta" role="tab">
+             <a class="Tabs-link is-active" href="/people/excited-vczh/following">
+              关注
+             </a>
+            </li>
+           </ul>
+          </div>
+          <div>
+           <div>
+            <div class="Sticky">
+            </div>
+           </div>
+          </div>
+          <div class="List" id="Profile-following">
+           <div class="List-header">
+            <h4 class="List-headerText">
+             <div class="SubTabs">
+              <a class="SubTabs-item is-active" href="/people/excited-vczh/following">
+               他关注的人
+              </a>
+              <a class="SubTabs-item" href="/people/excited-vczh/followers">
+               关注他的人
+              </a>
+              <span class="SubTabs-item">
+               <div class="Popover">
+                <button aria-expanded="false" aria-haspopup="true" aria-owns="Popover-58950-71067-content" class="Button Select-button Select-plainButton Button--plain" id="Popover-58950-71067-toggle" role="combobox" type="button">
+                 他关注的专栏
+                 <svg aria-hidden="true" class="Icon Select-arrow Icon--select" height="16" style="height:16px;width:8px;" viewbox="0 0 8 13" width="8">
+                  <title>
+                  </title>
+                  <g>
+                   <path d="M4 11.183L1.284 8.218c-.293-.29-.77-.29-1.064 0-.293.29-.293.76 0 1.052l3.25 3.512c.292.29.768.29 1.062 0L7.78 9.27c.293-.29.293-.76 0-1.052-.295-.29-.77-.29-1.064 0L4 11.182zM4 1.818L1.284 4.782c-.293.29-.77.29-1.064 0-.293-.29-.293-.76 0-1.052L3.47.218c.292-.29.768-.29 1.062 0L7.78 3.73c.293.29.293.76 0 1.052-.295.29-.77.29-1.064 0L4 1.82z">
+                   </path>
+                  </g>
+                 </svg>
+                </button>
+               </div>
+              </span>
+             </div>
+            </h4>
+            <div class="List-headerOptions">
+            </div>
+           </div>
+           <div>
+            <div class="List-item">
+             <div class="ContentItem">
+              <div class="ContentItem-main">
+               <div class="ContentItem-image">
+                <span class="UserLink UserItem-avatar">
+                 <div class="Popover">
+                  <div aria-expanded="false" aria-haspopup="true" aria-owns="Popover-58952-1431-content" id="Popover-58952-1431-toggle">
+                   <a class="UserLink-link" href="/people/eeeee-52" target="_blank">
+                    <img alt="luoee" class="Avatar Avatar--large UserLink-avatar" src="https://pic4.zhimg.com/f20633c41a271a0998a7677a40e4cb27_im.jpg" srcset="https://pic4.zhimg.com/f20633c41a271a0998a7677a40e4cb27_xl.jpg 2x" style="width:60px;height:60px;"/>
+                   </a>
+                  </div>
+                 </div>
+                </span>
+               </div>
+               <div class="ContentItem-head">
+                <h2 class="ContentItem-title">
+                 <div class="UserItem-title">
+                  <span class="UserLink UserItem-name">
+                   <div class="Popover">
+                    <div aria-expanded="false" aria-haspopup="true" aria-owns="Popover-58953-92800-content" id="Popover-58953-92800-toggle">
+                     <a class="UserLink-link" href="/people/eeeee-52" target="_blank">
+                      luoee
+                     </a>
+                    </div>
+                   </div>
+                  </span>
+                 </div>
+                </h2>
+                <div class="ContentItem-meta">
+                 <div>
+                  <div class="ContentItem-status">
+                   <span class="ContentItem-statusItem">
+                    18 回答
+                   </span>
+                   <span class="ContentItem-statusItem">
+                    0 文章
+                   </span>
+                   <span class="ContentItem-statusItem">
+                    6893 关注者
+                   </span>
+                  </div>
+                 </div>
+                </div>
+               </div>
+               <div class="ContentItem-extra">
+                <button class="Button FollowButton Button--primary Button--blue" type="button">
+                 <span>
+                  <svg aria-hidden="true" class="Icon FollowButton-icon Icon--plus" height="16" style="height:16px;width:12px;" viewbox="0 0 12 12" width="12">
+                   <title>
+                   </title>
+                   <g>
+                    <path d="M6.994 4.994s-.008-3.593 0-4C6.97-.33 4.97-.33 4.996.994c-.025 1.275 0 4 0 4H1C-.334 5-.334 7 1 7c1.332 0 3.996-.006 3.996-.006v4c0 1.346 2.004 1.346 1.998 0-.006-1.347 0-4 0-4S9.658 7 10.997 7c1.338 0 1.338-2-.007-2.006H6.994z">
+                    </path>
+                   </g>
+                  </svg>
+                  关注
+                 </span>
+                </button>
+               </div>
+              </div>
+             </div>
+            </div>
+            <div class="List-item">
+             <div class="ContentItem">
+              <div class="ContentItem-main">
+               <div class="ContentItem-image">
+                <span class="UserLink UserItem-avatar">
+                 <div class="Popover">
+                  <div aria-expanded="false" aria-haspopup="true" aria-owns="Popover-58954-58570-content" id="Popover-58954-58570-toggle">
+                   <a class="UserLink-link" href="/people/jin-tian-46" target="_blank">
+                    <img alt="肛里拉出个电锯" class="Avatar Avatar--large UserLink-avatar" src="https://pic2.zhimg.com/v2-bdff3f46fa8669f51a200ec66a39d861_im.jpg" srcset="https://pic2.zhimg.com/v2-bdff3f46fa8669f51a200ec66a39d861_xl.jpg 2x" style="width:60px;height:60px;"/>
+                   </a>
+                  </div>
+                 </div>
+                </span>
+               </div>
+               <div class="ContentItem-head">
+                <h2 class="ContentItem-title">
+                 <div class="UserItem-title">
+                  <span class="UserLink UserItem-name">
+                   <div class="Popover">
+                    <div aria-expanded="false" aria-haspopup="true" aria-owns="Popover-58955-70264-content" id="Popover-58955-70264-toggle">
+                     <a class="UserLink-link" href="/people/jin-tian-46" target="_blank">
+                      肛里拉出个电锯
+                     </a>
+                    </div>
+                   </div>
+                  </span>
+                 </div>
+                </h2>
+                <div class="ContentItem-meta">
+                 <div>
+                  <div class="RichText">
+                   蔡英文：白毛黑毛，长在我身上就是好毛
+                  </div>
+                  <div class="ContentItem-status">
+                   <span class="ContentItem-statusItem">
+                    5742 回答
+                   </span>
+                   <span class="ContentItem-statusItem">
+                    26 文章
+                   </span>
+                   <span class="ContentItem-statusItem">
+                    25251 关注者
+                   </span>
+                  </div>
+                 </div>
+                </div>
+               </div>
+               <div class="ContentItem-extra">
+                <button class="Button FollowButton Button--primary Button--blue" type="button">
+                 <span>
+                  <svg aria-hidden="true" class="Icon FollowButton-icon Icon--plus" height="16" style="height:16px;width:12px;" viewbox="0 0 12 12" width="12">
+                   <title>
+                   </title>
+                   <g>
+                    <path d="M6.994 4.994s-.008-3.593 0-4C6.97-.33 4.97-.33 4.996.994c-.025 1.275 0 4 0 4H1C-.334 5-.334 7 1 7c1.332 0 3.996-.006 3.996-.006v4c0 1.346 2.004 1.346 1.998 0-.006-1.347 0-4 0-4S9.658 7 10.997 7c1.338 0 1.338-2-.007-2.006H6.994z">
+                    </path>
+                   </g>
+                  </svg>
+                  关注
+                 </span>
+                </button>
+               </div>
+              </div>
+             </div>
+            </div>
+            <div class="List-item">
+             <div class="ContentItem">
+              <div class="ContentItem-main">
+               <div class="ContentItem-image">
+                <span class="UserLink UserItem-avatar">
+                 <div class="Popover">
+                  <div aria-expanded="false" aria-haspopup="true" aria-owns="Popover-58956-32361-content" id="Popover-58956-32361-toggle">
+                   <a class="UserLink-link" href="/people/zhao-da-xiao-jie-75-34" target="_blank">
+                    <img alt="夏目大人sama" class="Avatar Avatar--large UserLink-avatar" src="https://pic3.zhimg.com/v2-560f7ec49b82a6af891e7876d094322e_im.jpg" srcset="https://pic3.zhimg.com/v2-560f7ec49b82a6af891e7876d094322e_xl.jpg 2x" style="width:60px;height:60px;"/>
+                   </a>
+                  </div>
+                 </div>
+                </span>
+               </div>
+               <div class="ContentItem-head">
+                <h2 class="ContentItem-title">
+                 <div class="UserItem-title">
+                  <span class="UserLink UserItem-name">
+                   <div class="Popover">
+                    <div aria-expanded="false" aria-haspopup="true" aria-owns="Popover-58957-45587-content" id="Popover-58957-45587-toggle">
+                     <a class="UserLink-link" href="/people/zhao-da-xiao-jie-75-34" target="_blank">
+                      夏目大人sama
+                     </a>
+                    </div>
+                   </div>
+                  </span>
+                 </div>
+                </h2>
+                <div class="ContentItem-meta">
+                 <div>
+                  <div class="RichText">
+                   wx：sama111222333 情趣卖家
+                  </div>
+                  <div class="ContentItem-status">
+                   <span class="ContentItem-statusItem">
+                    76 回答
+                   </span>
+                   <span class="ContentItem-statusItem">
+                    1 文章
+                   </span>
+                   <span class="ContentItem-statusItem">
+                    1397 关注者
+                   </span>
+                  </div>
+                 </div>
+                </div>
+               </div>
+               <div class="ContentItem-extra">
+                <button class="Button FollowButton Button--primary Button--blue" type="button">
+                 <span>
+                  <svg aria-hidden="true" class="Icon FollowButton-icon Icon--plus" height="16" style="height:16px;width:12px;" viewbox="0 0 12 12" width="12">
+                   <title>
+                   </title>
+                   <g>
+                    <path d="M6.994 4.994s-.008-3.593 0-4C6.97-.33 4.97-.33 4.996.994c-.025 1.275 0 4 0 4H1C-.334 5-.334 7 1 7c1.332 0 3.996-.006 3.996-.006v4c0 1.346 2.004 1.346 1.998 0-.006-1.347 0-4 0-4S9.658 7 10.997 7c1.338 0 1.338-2-.007-2.006H6.994z">
+                    </path>
+                   </g>
+                  </svg>
+                  关注
+                 </span>
+                </button>
+               </div>
+              </div>
+             </div>
+            </div>
+            <div class="Pagination">
+             <button class="Button PaginationButton PaginationButton--current Button--plain" disabled="" type="button">
+              1
+             </button>
+             <button class="Button PaginationButton Button--plain" type="button">
+              2
+             </button>
+             <button class="Button PaginationButton Button--plain" type="button">
+              3
+             </button>
+             <button class="Button PaginationButton Button--plain" type="button">
+              4
+             </button>
+             <span class="PaginationButton PaginationButton--fake">
+              ...
+             </span>
+             <button class="Button PaginationButton Button--plain" type="button">
+              101
+             </button>
+             <button class="Button PaginationButton PaginationButton-next Button--plain" type="button">
+              下一页
+             </button>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+        <div class="Profile-sideColumn" data-za-module="RightSideBar">
+         <div class="Card">
+          <div class="Card-header Profile-sideColumnTitle">
+           <div class="Card-headerText">
+            个人成就
+           </div>
+          </div>
+          <div class="Profile-sideColumnItems">
+           <div class="Profile-sideColumnItem">
+            <div class="IconGraf">
+             <div class="IconGraf-iconWrapper">
+              <svg aria-hidden="true" class="Icon IconGraf-icon Icon--marked" height="14" style="height:14px;width:16px;" viewbox="0 0 14 16" width="16">
+               <title>
+               </title>
+               <g>
+                <path d="M0 1.505C0 .675.666 0 1.5 0H3v6l.59-.59c.778-.778 2.043-.777 2.82 0L7 6V0h5.498C13.328 0 14 .667 14 1.505v12.99c0 .83-.675 1.505-1.498 1.505H1.498C.67 16 0 15.333 0 14.495V1.505z" fill-rule="evenodd">
+                </path>
+               </g>
+              </svg>
+             </div>
+             <a class="Profile-sideColumnItemLink" href="/people/excited-vczh/answers/marked">
+              知乎收录 4 个回答
+             </a>
+            </div>
+            <div class="Profile-sideColumnItemValue">
+             编辑推荐收录
+            </div>
+           </div>
+           <div class="Profile-sideColumnItem">
+            <div class="IconGraf">
+             <div class="IconGraf-iconWrapper">
+              <svg aria-hidden="true" class="Icon IconGraf-icon Icon--like" height="16" style="height:16px;width:16px;" viewbox="0 0 20 18" width="16" xmlns="http://www.w3.org/2000/svg">
+               <title>
+               </title>
+               <g>
+                <path d="M.718 7.024c-.718 0-.718.63-.718.63l.996 9.693c0 .703.718.65.718.65h1.45c.916 0 .847-.65.847-.65V7.793c-.09-.88-.853-.79-.846-.79l-2.446.02zm11.727-.05S13.2 5.396 13.6 2.89C13.765.03 11.55-.6 10.565.53c-1.014 1.232 0 2.056-4.45 5.83C5.336 6.965 5 8.01 5 8.997v6.998c-.016 1.104.49 2 1.99 2h7.586c2.097 0 2.86-1.416 2.86-1.416s2.178-5.402 2.346-5.91c1.047-3.516-1.95-3.704-1.95-3.704l-5.387.007z">
+                </path>
+               </g>
+              </svg>
+             </div>
+             获得 1148519 次赞同
+            </div>
+            <div class="Profile-sideColumnItemValue">
+             获得 150139 次感谢，208780 次收藏
+            </div>
+           </div>
+           <div class="Profile-sideColumnItem">
+            <div class="IconGraf">
+             <div class="IconGraf-iconWrapper">
+              <svg aria-hidden="true" class="Icon IconGraf-icon Icon--commonEdit" height="16" style="height:16px;width:16px;" viewbox="0 0 16 16" width="16">
+               <title>
+               </title>
+               <g>
+                <path d="M8 15.5C3.858 15.5.5 12.142.5 8 .5 3.858 3.858.5 8 .5c4.142 0 7.5 3.358 7.5 7.5 0 4.142-3.358 7.5-7.5 7.5zm3.032-11.643c-.22-.214-.574-.208-.79.013L5.1 9.173 6.778 10.8l5.142-5.303c.215-.222.21-.575-.01-.79l-.878-.85zm-6.77 7.107L4 12l1.028-.293.955-.27L4.503 10l-.242.964z" fill-rule="evenodd">
+                </path>
+               </g>
+              </svg>
+             </div>
+             <a class="Profile-sideColumnItemLink" href="/people/excited-vczh/logs" target="_blank">
+              参与 2255 次公共编辑
+             </a>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="Card FollowshipCard">
+          <div class="NumberBoard FollowshipCard-counts">
+           <a class="Button NumberBoard-item Button--plain" href="/people/excited-vczh/following" type="button">
+            <div class="NumberBoard-name">
+             关注了
+            </div>
+            <div class="NumberBoard-value">
+             2008
+            </div>
+           </a>
+           <div class="NumberBoard-divider">
+           </div>
+           <a class="Button NumberBoard-item Button--plain" href="/people/excited-vczh/followers" type="button">
+            <div class="NumberBoard-name">
+             关注者
+            </div>
+            <div class="NumberBoard-value">
+             529014
+            </div>
+           </a>
+          </div>
+         </div>
+         <div class="Profile-lightList">
+          <a class="Profile-lightItem" href="/lives/users/0970f947b898ecc0ec035f9126dd4e08" target="_blank">
+           <span class="Profile-lightItemName">
+            赞助的 Live ⚡️
+           </span>
+           <span class="Profile-lightItemValue">
+            4
+           </span>
+          </a>
+          <a class="Profile-lightItem" href="/people/excited-vczh/following/topics">
+           <span class="Profile-lightItemName">
+            关注的话题
+           </span>
+           <span class="Profile-lightItemValue">
+            34
+           </span>
+          </a>
+          <a class="Profile-lightItem" href="/people/excited-vczh/following/columns">
+           <span class="Profile-lightItemName">
+            关注的专栏
+           </span>
+           <span class="Profile-lightItemValue">
+            60
+           </span>
+          </a>
+          <a class="Profile-lightItem" href="/people/excited-vczh/following/questions">
+           <span class="Profile-lightItemName">
+            关注的问题
+           </span>
+           <span class="Profile-lightItemValue">
+            24351
+           </span>
+          </a>
+          <a class="Profile-lightItem" href="/people/excited-vczh/following/collections">
+           <span class="Profile-lightItemName">
+            关注的收藏夹
+           </span>
+           <span class="Profile-lightItemValue">
+            10
+           </span>
+          </a>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </main>
+   </div>
+  </div>
+  <div data-config='{"apiAddress":"https://www.zhihu.com/api/v4/","filterPrefixArray":["v3"],"deployEnv":"production"}' data-reactid="21" data-state='{"loading":{"global":{"count":0},"local":{"token/":false,"people/get/":false,"people/getFollowings/excited-vczh":false}},"entities":{"users":{"eeeee-52":{"isFollowed":false,"avatarUrlTemplate":"https://pic4.zhimg.com/f20633c41a271a0998a7677a40e4cb27_{size}.jpg","name":"luoee","headline":"","type":"people","userType":"people","answerCount":18,"urlToken":"eeeee-52","isAdvertiser":false,"avatarUrl":"https://pic4.zhimg.com/f20633c41a271a0998a7677a40e4cb27_is.jpg","isFollowing":false,"url":"http://www.zhihu.com/api/v4/people/2f818583695f355d3c97526221515d00","gender":0,"followerCount":6893,"articlesCount":0,"badge":[],"id":"2f818583695f355d3c97526221515d00","isOrg":false},"jin-tian-46":{"isFollowed":false,"avatarUrlTemplate":"https://pic2.zhimg.com/v2-bdff3f46fa8669f51a200ec66a39d861_{size}.jpg","name":"肛里拉出个电锯","headline":"蔡英文：白毛黑毛，长在我身上就是好毛","type":"people","userType":"people","answerCount":5742,"urlToken":"jin-tian-46","isAdvertiser":false,"avatarUrl":"https://pic2.zhimg.com/v2-bdff3f46fa8669f51a200ec66a39d861_is.jpg","isFollowing":false,"url":"http://www.zhihu.com/api/v4/people/18e124fe75e59d743ef8e6b578079536","gender":1,"followerCount":25251,"articlesCount":26,"badge":[],"id":"18e124fe75e59d743ef8e6b578079536","isOrg":false},"zhao-da-xiao-jie-75-34":{"isFollowed":false,"avatarUrlTemplate":"https://pic3.zhimg.com/v2-560f7ec49b82a6af891e7876d094322e_{size}.jpg","name":"夏目大人sama","headline":"wx：sama111222333 情趣卖家","type":"people","userType":"people","answerCount":76,"urlToken":"zhao-da-xiao-jie-75-34","isAdvertiser":false,"avatarUrl":"https://pic3.zhimg.com/v2-560f7ec49b82a6af891e7876d094322e_is.jpg","isFollowing":false,"url":"http://www.zhihu.com/api/v4/people/6e437039e4587383fd178610a74f4f7f","gender":0,"followerCount":1397,"articlesCount":1,"badge":[],"id":"6e437039e4587383fd178610a74f4f7f","isOrg":false},"null":{"isFollowed":false,"avatarUrlTemplate":"https://pic1.zhimg.com/da8e974dc_{size}.jpg","name":"知乎用户","headline":"","type":"people","userType":"people","answerCount":94,"urlToken":null,"isAdvertiser":false,"avatarUrl":"https://pic1.zhimg.com/da8e974dc_is.jpg","isFollowing":false,"url":"http://www.zhihu.com/api/v4/people/0","gender":0,"followerCount":3427,"articlesCount":3,"badge":[],"id":"f50fba08c6acc39736cffb6075208759","isOrg":false},"er-mei-14-94":{"isFollowed":false,"avatarUrlTemplate":"https://pic2.zhimg.com/v2-c98e2094aa02ef93eb684b8e0c0e7881_{size}.jpg","name":"美玲","headline":"","type":"people","userType":"people","answerCount":4,"urlToken":"er-mei-14-94","isAdvertiser":false,"avatarUrl":"https://pic2.zhimg.com/v2-c98e2094aa02ef93eb684b8e0c0e7881_is.jpg","isFollowing":false,"url":"http://www.zhihu.com/api/v4/people/d0900aa9b47000dcdad6046a1c2c7bd0","gender":0,"followerCount":2512,"articlesCount":0,"badge":[],"id":"d0900aa9b47000dcdad6046a1c2c7bd0","isOrg":false},"xin_zou":{"isFollowed":false,"avatarUrlTemplate":"https://pic2.zhimg.com/51c584fb0918672b70d03e5b32619cbd_{size}.jpg","name":"邹昕","headline":"互联网数据分析","type":"people","userType":"people","answerCount":45,"urlToken":"xin_zou","isAdvertiser":false,"avatarUrl":"https://pic2.zhimg.com/51c584fb0918672b70d03e5b32619cbd_is.jpg","isFollowing":false,"url":"http://www.zhihu.com/api/v4/people/1226dd3baa23701c8bb28f60e6904a7e","gender":1,"followerCount":25307,"articlesCount":6,"badge":[{"type":"best_answerer","description":"优秀回答者"}],"id":"1226dd3baa23701c8bb28f60e6904a7e","isOrg":false},"yu-ting-liao-45-75":{"isFollowed":false,"avatarUrlTemplate":"https://pic1.zhimg.com/v2-5c0632f463bcb3c0af9cd3e2b24c64d4_{size}.jpg","name":"雨停了","headline":"不吃","type":"people","userType":"people","answerCount":2,"urlToken":"yu-ting-liao-45-75","isAdvertiser":false,"avatarUrl":"https://pic1.zhimg.com/v2-5c0632f463bcb3c0af9cd3e2b24c64d4_is.jpg","isFollowing":false,"url":"http://www.zhihu.com/api/v4/people/b446504e0209f9aee2e9746957045253","gender":0,"followerCount":662,"articlesCount":0,"badge":[],"id":"b446504e0209f9aee2e9746957045253","isOrg":false},"gao-zi-han-81-62":{"isFollowed":false,"avatarUrlTemplate":"https://pic2.zhimg.com/v2-deff7629e8b45035834c4f55515f8345_{size}.jpg","name":"望瑾","headline":"进击的英翻狗 铲屎官","type":"people","userType":"people","answerCount":8,"urlToken":"gao-zi-han-81-62","isAdvertiser":false,"avatarUrl":"https://pic2.zhimg.com/v2-deff7629e8b45035834c4f55515f8345_is.jpg","isFollowing":false,"url":"http://www.zhihu.com/api/v4/people/c29ae35b3ddbed055dcf8aec53620463","gender":0,"followerCount":687,"articlesCount":0,"badge":[],"id":"c29ae35b3ddbed055dcf8aec53620463","isOrg":false},"dan-ala":{"isFollowed":false,"avatarUrlTemplate":"https://pic4.zhimg.com/d7d41f92b_{size}.jpg","name":"初冬的浅海鱼","headline":"给排水工程师","type":"people","userType":"people","answerCount":8,"urlToken":"dan-ala","isAdvertiser":false,"avatarUrl":"https://pic4.zhimg.com/d7d41f92b_is.jpg","isFollowing":false,"url":"http://www.zhihu.com/api/v4/people/4f363e7a252aaf1dd4e1a9bff91117a1","gender":0,"followerCount":631,"articlesCount":1,"badge":[],"id":"4f363e7a252aaf1dd4e1a9bff91117a1","isOrg":false},"penny_panyiyi":{"isFollowed":false,"avatarUrlTemplate":"https://pic1.zhimg.com/v2-66657473acaf72ccf2aaace24294df10_{size}.jpg","name":"潘依依","headline":"艺术设计 / 平面模特","type":"people","userType":"people","answerCount":15,"urlToken":"penny_panyiyi","isAdvertiser":false,"avatarUrl":"https://pic1.zhimg.com/v2-66657473acaf72ccf2aaace24294df10_is.jpg","isFollowing":false,"url":"http://www.zhihu.com/api/v4/people/ac6bcf66a1419faa8e889a37ece4e920","gender":0,"followerCount":4523,"articlesCount":1,"badge":[],"id":"ac6bcf66a1419faa8e889a37ece4e920","isOrg":false},"lazy-linux":{"isFollowed":false,"avatarUrlTemplate":"https://pic2.zhimg.com/169155a07d978c98cfc1e00033d39fc1_{size}.jpg","name":"Lazy.Linux","headline":"都喜欢轮子，造一个试试","type":"people","userType":"people","answerCount":3,"urlToken":"lazy-linux","isAdvertiser":false,"avatarUrl":"https://pic2.zhimg.com/169155a07d978c98cfc1e00033d39fc1_is.jpg","isFollowing":false,"url":"http://www.zhihu.com/api/v4/people/7c97d6a3179831b6b84082183551c485","gender":-1,"followerCount":256,"articlesCount":0,"badge":[],"id":"7c97d6a3179831b6b84082183551c485","isOrg":false},"spto":{"isFollowed":false,"avatarUrlTemplate":"https://pic4.zhimg.com/22d970137c9739e644ac79c75dca965f_{size}.jpg","name":"刘博洋","headline":"天体物理学博士生","type":"people","userType":"people","answerCount":732,"urlToken":"spto","isAdvertiser":false,"avatarUrl":"https://pic4.zhimg.com/22d970137c9739e644ac79c75dca965f_is.jpg","isFollowing":false,"url":"http://www.zhihu.com/api/v4/people/6b7dbb134d288e0bfb96690f057592b4","gender":1,"followerCount":45700,"articlesCount":34,"badge":[{"type":"identity","description":"国家天文台/西澳大学 天体物理学博士在读"},{"type":"best_answerer","description":"优秀回答者"}],"id":"6b7dbb134d288e0bfb96690f057592b4","isOrg":false},"liu-xiang-yu-66-81":{"isFollowed":false,"avatarUrlTemplate":"https://pic1.zhimg.com/266ab8f14_{size}.jpg","name":"暗涌","headline":"The Follower of Psychology","type":"people","userType":"people","answerCount":115,"urlToken":"liu-xiang-yu-66-81","isAdvertiser":false,"avatarUrl":"https://pic1.zhimg.com/266ab8f14_is.jpg","isFollowing":false,"url":"http://www.zhihu.com/api/v4/people/ed32204e8837e5d33e6d151433f8f752","gender":0,"followerCount":32024,"articlesCount":4,"badge":[{"type":"best_answerer","description":"优秀回答者"}],"id":"ed32204e8837e5d33e6d151433f8f752","isOrg":false},"vzi-1-94":{"isFollowed":false,"avatarUrlTemplate":"https://pic1.zhimg.com/v2-2feeb1708db6522df588650f842a1b00_{size}.jpg","name":"V子","headline":"一个俗人","type":"people","userType":"people","answerCount":2,"urlToken":"vzi-1-94","isAdvertiser":false,"avatarUrl":"https://pic1.zhimg.com/v2-2feeb1708db6522df588650f842a1b00_is.jpg","isFollowing":false,"url":"http://www.zhihu.com/api/v4/people/3ec9271f85288768ba473bfc4452a314","gender":0,"followerCount":826,"articlesCount":0,"badge":[],"id":"3ec9271f85288768ba473bfc4452a314","isOrg":false},"yi-xun-24":{"isFollowed":false,"avatarUrlTemplate":"https://pic4.zhimg.com/v2-595fcec50d1b2f96bde06ffb4711e577_{size}.jpg","name":"一本黑","headline":"一双混迹于安全圈的眼睛，内容常被和谐，可以看看公众号【一本黑】","type":"people","userType":"people","answerCount":4,"urlToken":"yi-xun-24","isAdvertiser":false,"avatarUrl":"https://pic4.zhimg.com/v2-595fcec50d1b2f96bde06ffb4711e577_is.jpg","isFollowing":false,"url":"http://www.zhihu.com/api/v4/people/b41468cc3d9d8c3e46e4e1fead73ded5","gender":-1,"followerCount":2561,"articlesCount":2,"badge":[],"id":"b41468cc3d9d8c3e46e4e1fead73ded5","isOrg":false},"gyoel":{"isFollowed":false,"avatarUrlTemplate":"https://pic4.zhimg.com/v2-0093b7cf140cc6c2d64ef0989480608b_{size}.jpg","name":"Gyeol","headline":"网友","type":"people","userType":"people","answerCount":0,"urlToken":"gyoel","isAdvertiser":false,"avatarUrl":"https://pic4.zhimg.com/v2-0093b7cf140cc6c2d64ef0989480608b_is.jpg","isFollowing":false,"url":"http://www.zhihu.com/api/v4/people/6acbcfef06b74762fdcb330ce91216d2","gender":0,"followerCount":1547,"articlesCount":0,"badge":[],"id":"6acbcfef06b74762fdcb330ce91216d2","isOrg":false},"MargaretTeaMoon":{"isFollowed":false,"avatarUrlTemplate":"https://pic3.zhimg.com/v2-c461b6d397d04e1bc43b7a857f8b3a22_{size}.jpg","name":"狐狸眼少年","headline":"剑未佩妥，出门已江湖。","type":"people","userType":"people","answerCount":9,"urlToken":"MargaretTeaMoon","isAdvertiser":false,"avatarUrl":"https://pic3.zhimg.com/v2-c461b6d397d04e1bc43b7a857f8b3a22_is.jpg","isFollowing":false,"url":"http://www.zhihu.com/api/v4/people/1f6d7b1838aa4416e3da024c36b48958","gender":1,"followerCount":2404,"articlesCount":13,"badge":[],"id":"1f6d7b1838aa4416e3da024c36b48958","isOrg":false},"liu-ben-mu-bo-jue":{"isFollowed":false,"avatarUrlTemplate":"https://pic1.zhimg.com/v2-6421540c48d2f9067ccd1f51c1504850_{size}.jpg","name":"六本木","headline":"微信公众号：形而美学","type":"people","userType":"people","answerCount":22,"urlToken":"liu-ben-mu-bo-jue","isAdvertiser":false,"avatarUrl":"https://pic1.zhimg.com/v2-6421540c48d2f9067ccd1f51c1504850_is.jpg","isFollowing":false,"url":"http://www.zhihu.com/api/v4/people/8cf3e5a4e72eba8227d638daf8712be3","gender":1,"followerCount":29687,"articlesCount":20,"badge":[],"id":"8cf3e5a4e72eba8227d638daf8712be3","isOrg":false},"niu-ni-ni-75":{"isFollowed":false,"avatarUrlTemplate":"https://pic3.zhimg.com/cb956ee80a737dff9bbec99127597fa6_{size}.jpg","name":"牛妮妮","headline":"苦逼医学生，古风爱好者～","type":"people","userType":"people","answerCount":10,"urlToken":"niu-ni-ni-75","isAdvertiser":false,"avatarUrl":"https://pic3.zhimg.com/cb956ee80a737dff9bbec99127597fa6_is.jpg","isFollowing":false,"url":"http://www.zhihu.com/api/v4/people/b6efeb2c805714d9ccd034bd4db5b31e","gender":0,"followerCount":223,"articlesCount":0,"badge":[],"id":"b6efeb2c805714d9ccd034bd4db5b31e","isOrg":false},"xiao-long-bao-2-9":{"isFollowed":false,"avatarUrlTemplate":"https://pic2.zhimg.com/d77d6db96626cff1fcb9d1779d7e80ed_{size}.jpg","name":"小笼包","headline":"试图健身但作业怎么这么多的多伦多机械狗","type":"people","userType":"people","answerCount":4,"urlToken":"xiao-long-bao-2-9","isAdvertiser":false,"avatarUrl":"https://pic2.zhimg.com/d77d6db96626cff1fcb9d1779d7e80ed_is.jpg","isFollowing":false,"url":"http://www.zhihu.com/api/v4/people/5c29b69c2c778c54a7e4ab1c3bfab40e","gender":0,"followerCount":62,"articlesCount":0,"badge":[],"id":"5c29b69c2c778c54a7e4ab1c3bfab40e","isOrg":false},"excited-vczh":{"isFollowed":false,"educations":[{"major":{"name":"软件学院","introduction":"","excerpt":"","url":"http://www.zhihu.com/api/v4/topics/19590324","avatarUrl":"https://pic1.zhimg.com/e82bab09c_is.jpg","type":"topic","id":"19590324"},"school":{"name":"华南理工大学（SCUT）","introduction":"华南理工大学（South China University of Technology）（原华南工学院，1952年建立）：教育部直属的重点大学，涵盖理、工、管、经、文、法等多学科，先后成为“211工程”和“985工程”院校，被誉为中国“南方工科大学的一面旗帜”，“工程师的摇篮”，“企业家的摇篮”。校园分为两个校区，北校区位于广州市天河区五山高校区，南校区位于广州市番禺区广州大学城内。学校占地面积4417亩(其中南校区1677亩)。北校区湖光山色交相辉映，绿树繁花香飘四季，民族式建筑与现代化楼群错落有致，环境优美清新，文化底蕴深厚，是教育部命名的“文明校园”；南校区是一个环境优美、设施先进、管理完善、制度创新的现代化校园，是莘莘学子求学的理想之地。","excerpt":"华南理工大学（South China University of Technology）（原华南工学院，1952年建立）：教育部直属的重点大学，涵盖理、工、管、经、文、法等多学科，先后成为“211工程”和“985工程”院校，被誉为中国“南方工科大学的一面旗帜”，“工程师的摇篮”，“企业家的摇篮”。校园分为两个校区，北校区位于广州市天河区五山高校区，南校区位于广州市番禺区广州大学城内。学校占地面积4417亩(其中南校区1677亩)。北校区湖光山色交相辉…","url":"http://www.zhihu.com/api/v4/topics/19599737","avatarUrl":"https://pic2.zhimg.com/4d0d193a9_is.jpg","type":"topic","id":"19599737"}}],"followingCount":2008,"voteFromCount":0,"userType":"people","showSinaWeibo":false,"pinsCount":0,"isFollowing":false,"markedAnswersText":"编辑推荐","accountStatus":[],"isForceRenamed":false,"id":"0970f947b898ecc0ec035f9126dd4e08","favoriteCount":1,"voteupCount":1148519,"commercialQuestionCount":0,"isBlocking":false,"followingColumnsCount":60,"headline":"专业造轮子，拉黑抢前排。gaclib.net","urlToken":"excited-vczh","participatedLiveCount":4,"followingFavlistsCount":10,"isAdvertiser":false,"isBindSina":true,"favoritedCount":208780,"isOrg":false,"followerCount":529014,"employments":[{"company":{"name":"Microsoft Office","introduction":"Microsoft Office 是一套由微软开发的办公软件。","excerpt":"Microsoft Office 是一套由微软开发的办公软件。","url":"http://www.zhihu.com/api/v4/topics/19557307","avatarUrl":"https://pic3.zhimg.com/v2-d3a9ee5ba3a2fe711087787c6169dcca_is.jpg","type":"topic","id":"19557307"},"job":{"name":"Developer","introduction":"","excerpt":"","url":"http://www.zhihu.com/api/v4/topics/19578588","avatarUrl":"https://pic1.zhimg.com/e82bab09c_is.jpg","type":"topic","id":"19578588"}}],"markedAnswersCount":4,"avatarHue":"","avatarUrlTemplate":"https://pic1.zhimg.com/3a6c25ac3864540e80cdef9bc2a73900_{size}.jpg","followingTopicCount":34,"description":"长期开发跨三大PC平台的GUI库&lt;br&gt;&lt;a href=\"https://link.zhihu.com/?target=http%3A//www.gaclib.net\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"&gt;&lt;span class=\"invisible\"&gt;http://www.&lt;/span&gt;&lt;span class=\"visible\"&gt;gaclib.net&lt;/span&gt;&lt;span class=\"invisible\"&gt;&lt;/span&gt;&lt;i class=\"icon-external\"&gt;&lt;/i&gt;&lt;/a&gt;，讨论QQ群：231200072（不闲聊）&lt;br&gt;不再更新的技术博客：&lt;a href=\"https://link.zhihu.com/?target=http%3A//www.cppblog.com/vczh\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"&gt;&lt;span class=\"invisible\"&gt;http://www.&lt;/span&gt;&lt;span class=\"visible\"&gt;cppblog.com/vczh&lt;/span&gt;&lt;span class=\"invisible\"&gt;&lt;/span&gt;&lt;i class=\"icon-external\"&gt;&lt;/i&gt;&lt;/a&gt;","business":{"url":"http://www.zhihu.com/api/v4/topics/19619368","avatarUrl":"https://pic1.zhimg.com/e82bab09c_is.jpg","name":"计算机软件","introduction":"徼","type":"topic","excerpt":"徼","id":"19619368"},"avatarUrl":"https://pic1.zhimg.com/3a6c25ac3864540e80cdef9bc2a73900_is.jpg","hostedLiveCount":0,"isActive":1,"thankToCount":0,"mutualFolloweesCount":0,"badge":[],"coverUrl":"https://pic1.zhimg.com/v2-67b965aa94a92ed49b1a4205145b5cf4_b.jpg","thankFromCount":0,"voteToCount":0,"isBlocked":false,"answerCount":14793,"allowMessage":false,"articlesCount":60,"name":"vczh","questionCount":474,"locations":[{"name":"西雅图（Seattle）","introduction":"西雅图是美国西北部最大的城市。多家高科技公司的总部（Microsoft, Amazon，Boeing 等等）坐落于此。","excerpt":"西雅图是美国西北部最大的城市。多家高科技公司的总部（Microsoft, Amazon，Boeing 等等）坐落于此。","url":"http://www.zhihu.com/api/v4/topics/19583552","avatarUrl":"https://pic4.zhimg.com/161f6ece791a4950ded3278fb74a2f9b_is.jpg","type":"topic","id":"19583552"}],"type":"people","url":"http://www.zhihu.com/api/v4/people/0970f947b898ecc0ec035f9126dd4e08","messageThreadToken":"4874924000","logsCount":2255,"followingQuestionCount":24351,"thankedCount":150139,"gender":1}},"questions":{},"answers":{},"articles":{},"columns":{},"topics":{},"roundtables":{},"favlists":{},"comments":{},"notifications":{},"ebooks":{},"activities":{},"feeds":{}},"people":{"isFetching":false,"activitiesByUser":{},"answersByUser":{},"answersSortByVotesByUser":{},"answersMarkedByUser":{},"votedAnswersByUser":{},"thankedAnswersByUser":{},"voteAnswersByUser":{},"thankAnswersByUser":{},"topicAnswersByUser":{},"articlesByUser":{},"articlesSortByVotesByUser":{},"pinsByUser":{},"questionsByUser":{},"commercialQuestionsByUser":{},"favlistsByUser":{},"followingByUser":{"excited-vczh":{"isDrained":false,"isFetching":false,"ids":["eeeee-52","jin-tian-46","zhao-da-xiao-jie-75-34","er-mei-14-94","xin_zou","yu-ting-liao-45-75","gao-zi-han-81-62","dan-ala","penny_panyiyi","lazy-linux","spto","liu-xiang-yu-66-81","vzi-1-94","yi-xun-24","gyoel","MargaretTeaMoon","liu-ben-mu-bo-jue","niu-ni-ni-75","xiao-long-bao-2-9",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],"totals":2008}},"followersByUser":{},"mutualsByUser":{},"followingColumnsByUser":{},"followingQuestionsByUser":{},"followingFavlistsByUser":{},"followingTopicsByUser":{},"publicationsByUser":{},"columnsByUser":{},"allFavlistsByUser":{}},"question":{"followers":{},"answers":{},"createdAnswers":{},"collapsedAnswers":{},"notificationAnswers":{},"invitationCandidates":{},"inviters":{},"invitees":{},"similarQuestions":{},"relatedLives":{},"bio":{},"brand":{}},"comments":{"pagination":{},"reverse":{},"reviewing":{},"conversation":{}},"currentUser":"","shareTexts":{},"pushNotifications":{"default":{"isFetching":false,"isDrained":false,"ids":[]},"follow":{"isFetching":false,"isDrained":false,"ids":[]},"vote-thank":{"isFetching":false,"isDrained":false,"ids":[]},"currentTab":"default","notificationsCount":{"default":0,"follow":0,"vote-thank":0}},"messages":{"data":{},"currentTab":"common","messageCount":0},"notification":{},"token":{"xUDID":"AGDC84UkiguPTjNUxmVo9XJreveqHw2pLmY="},"upload":{},"answers":{"voters":{},"copyrightApplicants":{},"favlists":{}},"banner":{},"captcha":{"captchaNeeded":false,"captchaBase64String":null,"captchaValidationMessage":null,"loginCaptchaExpires":false},"topics":{"bios":{}},"sms":{"supportedCountries":[]},"register":{"registerValidateSucceeded":null,"registerValidateErrors":{},"registerConfirmError":null,"sendDigitsError":null,"registerConfirmSucceeded":null},"login":{"loginConfirmError":null,"sendDigitsError":null,"loginConfirmSucceeded":null},"active":{"sendDigitsError":null,"activeConfirmSucceeded":null,"activeConfirmError":null},"passwordReset":{"loginConfirmError":null,"sendDigitsError":null,"loginConfirmSucceeded":null,"resetPasswordSucceeded":null,"resetPasswordError":null},"explore":{"recommendations":{}},"articles":{"voters":{}},"favlists":{"relations":{}},"pins":{"voters":{}},"settings":{"experiment":{"default":"None","ge7":"ge7_3","ge3":"ge3_9","ge2":"ge2_1"}},"account":{"locakTicketStatus":false,"challenge":[],"errorStatus":false,"message":"","isFetching":false},"topstory":{"topstorys":{"isFetching":false,"isDrained":false,"afterId":0,"items":[],"next":null},"sidebar":{"isFetching":false}},"video":{"data":{}},"guide":{"guide":{"isFetching":false,"isShowGuide":false}},"userAgent":{"Edge":false,"Wechat":false,"Weibo":false,"QQ":false,"Mobile":false,"Android":false,"iOS":false,"isAppleDevice":false,"Zhihu":false,"isWebView":false}}' id="data" style="display:none;">
+  </div>
+  <script data-reactid="22" src="https://static.zhihu.com/heifetz/vendor.ebf89ff7745e0c466d44.js">
+  </script>
+  <script async="" data-reactid="23" src="https://static.zhihu.com/heifetz/main.raven.9614d7bf88f8512070cd.js">
+  </script>
+  <script data-reactid="24" src="https://static.zhihu.com/heifetz/main.app.1f6c542556a66b98bbac.js">
+  </script>
+ </body>
+</html>
